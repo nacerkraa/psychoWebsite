@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+a{
+    color: black;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.navbar {
+    padding: 8px 0;
+    z-index: 999;
+    width: 100%;
+    font-family: 'Ubuntu',sans-serif;
+    background-color: #fef0e5;
+}
+
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .p-1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.p-2 li{
+    margin-left: 10px;
+    background-color: #62d0fb;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.p-2 li a{
+    color: #fff;
+}
+
+.home {
+    background-color: #62d0fb;
+}
+
+.home-content {
+    height: 500px;
+}
+
+.home .home-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

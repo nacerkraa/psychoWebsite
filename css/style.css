@@ -2,7 +2,7 @@
 
 
 body{
-    height: 1000px;
+    height: 4000px;
 }
 
 *{
@@ -33,7 +33,7 @@ a{
     margin: auto;
 }
 
-
+/* start stayling navbar section */
 .navbar {
     padding: 8px 0;
     z-index: 999;
@@ -56,6 +56,10 @@ a{
     justify-content: space-between;
 }
 
+.navbar .p-1 a:hover{
+    color: #eb7e44;
+}
+
 .navbar .logo{
     font-size: 25px;
     font-weight: 500;
@@ -76,6 +80,9 @@ a{
     color: #fff;
 }
 
+/* end stayling navbar section */
+
+/* start stayling home section */
 .home {
     background-color: #62d0fb;
 }
@@ -115,11 +122,54 @@ a{
 }
 
 .home .img-1{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .home .img-1 img{
     height: 100%;
     width: 100%;
+}
+
+/* end stayling home section */
+
+/* start stayling bottom
+/* start footer staylig */
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a{
+    color: #62d0fb;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+}
+
+/* start stayling content section */
+
+.content{
+    background-color: aqua;
+}
+
+.content .content-cards{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .content-cards div{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: burlywood;
+    margin: 10px;
+   
 }

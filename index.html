@@ -5,32 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>psycho dz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="p-1">
-                <div class="logo"><a href="#">Brand</a></div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Consulting</a></li>
-                    <li><a href="#">Content</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Brand</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <div class="p-2">
-                <ul>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">Register</a></li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Consulting</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Content
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Articles</a></li>
+                  <li><a class="dropdown-item" href="#">Lectures</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Courses</a></li>
                 </ul>
-            </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" >About Us</a>
+              </li>
+            </ul>
+
+            <form class="d-flex">
+            <button type="button" class="btn btn-primary"><a href="#">Sign up</a></button>
+            <button type="button" class="btn btn-primary"><a href="#">Register</a></button>
+            </form>
+          </div>
         </div>
-    </nav>
+      </nav>
 
+      <!-- end navbar -->
+
+      <!-- start Home section -->
     <section class="home">
-        <div class="max-width">
+        <div class="container">
             <div class="home-content">
                 <div class="home-text">
                     <div class="text-1">The first Algerian Website</div>
@@ -47,7 +71,7 @@
 
     <!-- start content section -->
     <section class="content">
-        <div class="max-width">
+        <div class="container">
             <div class="content-cards">
                 <div class="el-1">div-1</div>
                 <div class="el-2">div-2</div>
@@ -62,5 +86,8 @@
         <span>Created By <a href="https://www.nacerkraa.me">Nacer Kraa</a> | &copy; 2021 All rights reserved.</span>
     </footer>
      -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/script.js"></script>
 </body>
 </html>

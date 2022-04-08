@@ -25,7 +25,12 @@ ul li{
 }
 
 a{
-    color: black;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
 }
 
 .max-width {
@@ -34,7 +39,7 @@ a{
     margin: auto;
 }
 
-/* start stayling navbar section */
+/* start stayling navbar section
 .navbar {
     padding: 8px 0;
     z-index: 999;
@@ -130,7 +135,7 @@ a{
 .home .img-1 img{
     height: 100%;
     width: 100%;
-}
+} */
 
 /* end stayling home section */
 
